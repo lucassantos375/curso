@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseclass</title>
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited {
+            color:blue;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+
+        }
+        a:active {
+            color: cyan;
+
+        }
+        a::after {
+            content:'[link]';
+            color: black;
+            font-style: normal;
+            text-decoration: none;
+        }
+        a::before {
+            content: '[link]';
+            color: black;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">repositorio github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">site do cursoemvideo</a></li>
+
+    </ul>
+    
+    
+</body>
+</html>

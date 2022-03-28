@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(192, 250, 250);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            width: 300px;
+            text-align: center;
+            margin:auto;
+            padding: 2px;
+            border-radius: 5px;
+            
+            
+        }
+        nav {
+            background-color: aqua;
+            padding: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+            outline: 1px dashed rgba(0, 0, 0, 0.521);
+
+        
+            
+        }
+        nav > a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav > a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+        article {
+            background-color:cornflowerblue
+
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p {
+            text-indent: 20px;
+            margin: 0px;
+        }
+        article > aside {
+            background-color: aquamarine;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: chartreuse;
+            margin: 20px 30px 20px 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="0">link</a>
+            <a href="0">link</a>
+            <a href="0">link</a>
+            <a href="0">link</a>
+            <a href="0">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                 <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis explicabo quo, autem asperiores ex ratione facere sunt placeat unde aliquam praesentium soluta officiis exercitationem, maiores ea minima, eum voluptas?</p>
+                <aside>
+                    <p>artigo feito por jose bezerra</p>
+                </aside>
+            </article>
+            <article>
+                <h2>previsão do tempo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum saepe beatae, maiores porro voluptate ab illum adipisci molestiae! Nulla, molestias dolorum debitis rerum dolor maxime accusantium ducimus quod voluptate modi.</p>
+                <aside>
+                    <p>previsão feita pelo instituto metereologico brasileiro</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por mim</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>

@@ -1,2 +1,2 @@
 # estudos
- hmtl-css
+ html-css
