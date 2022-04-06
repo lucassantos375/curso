@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --fontpadrao: 'Anek Devanagari', sans-serif;;
+    --fonttitulo: 'Anton', sans-serif;
+}
+body html {
+    min-height: 100vh;
+    font-family: var(--fontpadrao);
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.733);
+}
+header h1 {
+    font-family: var(--fonttitulo);
+}
+header p{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+section > p{
+    line-height: 2em;
+    font-family: var(--fontpadrao);
+}
+section.texto{
+    background-color: white;
+}
+section.imagem{
+    background-color: rgb(250, 246, 246);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+
+}
+section.imagem#img1{
+    background-image: url('./imagens/jota-quest.jpg');
+    background-position: center center;
+}
+section.imagem#img2{
+    background-image: url(imagens/pexels-vidal-balielo-jr-1682497.jpg);
+    background-position: top center;
+}
+section.imagem#img3{
+ 
+    background-image: url(imagens/pexels-artem-beliaikin-1516036.jpg);
+    background-position: top center;
+}
